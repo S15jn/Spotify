@@ -338,3 +338,131 @@ opacity: 0.6;
     border-radius: 50%;
     margin-top: -6px;
 }
+@media(max-width:800px){
+    
+    
+    .sidebar{
+        margin-top: 2rem;
+        background-color: black;
+        /* flex:0 */
+        z-index:5 ;
+    }
+    .sticky-nav{
+        display: none;
+
+    }
+
+    .main-content{
+        flex: 0;
+         text-align: center;
+         
+         /*
+        
+        align-items: center;
+        align-content: center; */
+       
+    }
+    .cards-container{
+        justify-content: space-evenly;
+    }
+    .volume-bar{
+      width: 4.5rem;
+        
+    }
+    .sticky-nav{
+        display: none;
+    }
+    
+    
+    .mid{
+        display: none;
+    }
+    .player{
+        width: 40%;
+    }
+}
+
+    
+
+
+@media(max-width:1000px){
+    
+    .sidebar{
+        margin-top: 2rem;
+        background-color: black;
+        flex:0
+        /* z-index:5 ; */
+        
+    }
+    .album{
+      margin-top: 25rem;
+      padding: 0 2px 0 2px;
+    }
+    .main-content{
+        flex: 10;
+    }
+    .sticky-nav{
+        width: 50%;
+        margin-left: 20rem;
+        background-color: transparent;
+
+    }
+.btn_one{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    position: absolute;
+    left: 20px;
+    line-height: 60px;
+    cursor: pointer;
+    top:0;
+}
+.sidebar_menu{
+    position: fixed;
+    left: -300px;
+height: 100vh;
+width: 300px;
+/* background-color: rgba(255, 255, 255, 0.1);*/
+box-shadow:0 0 6px rgba(255, 255, 255, 0.5); 
+background-color: black;
+transition: all 0.3s linear;
+}
+
+.sidebar_menu .btn_two i{
+    color: white;
+    font-size: 25px;
+    line-height: 60px;
+    position: absolute;
+    left: 255px;
+    /* opacity: 0; */
+    cursor: pointer;
+    transition: all 0.3s linear;
+
+
+}
+#check{
+    display: none;
+}
+.btn_one i:hover{
+    font-size: 40px;
+}
+.btn_two i:hover{
+    font-size: 40px;
+}
+#check:checked ~ .sidebar_menu{
+    left: 0;
+    }
+    #check:checked ~ .btn_one i{
+    opacity: 0;
+    }
+    #check:checked ~ .sidebar_menu.btn_two i{
+    opacity: 1;
+    }
+    .volume-bar{
+        width: fit-content;
+    }
+    .cards-container{
+        justify-content: space-evenly;
+    }
+    
+}
