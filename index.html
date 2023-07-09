@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="logo.png" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="sidebar">
+        <div class="nav">
+          <div class="nav-option">
+            <i class="fa-solid fa-house"></i>
+
+            <a href="#">Home </a>
+          </div>
+          <div class="nav-option">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="">search</a>
+          </div>
+        </div>
+        <div class="library">
+          <div class="options">
+            <div class="lib-options nav-option">
+              <img src="library_icon.png" alt="" />
+              <a href="#">Your Library</a>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="lib-box">
+            <div class="box">
+              <p class="box-p1">Create your first playlist</p>
+              <p class="box-p2">It's easy ,we'll help you</p>
+              <button class="badge">Create playlist</button>
+            </div>
+          </div>
+          <div class="lib-box">
+            <div class="box">
+              <p class="box-p1">Let's find some podcasts to follow</p>
+              <p class="box-p2">we'll keep you update on new episodes</p>
+              <button class="badge">Browse podcasts</button>
+            </div>
+          </div>
+        </div>
+        <div class="album">
+          <img src="album_picture.jpeg" alt="" class="album_pic">
+          <!-- <div>
+          <p class="album-title">Daylight</p></div>
+          <div> -->
+            <h3>Daylight</h3>
+            
+          <p class="album-info">David</p>
+          <img src="album_icon1.png" alt="" class="album_icon">
+          <img src="album_icon2.png" alt="" class="album_icon" style="height: 3rem;">
+          
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="sticky-nav">
+          <div class="nav-icons">
+          <img src="backward_icon.png" alt="">
+          <img src="forward_icon.png" class="hide" alt="">
+        </div>
+        <div class="sticky-nav-options">
+          <button class="badge nav-item hide">Explore Premium</button>
+          <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i> Install App</button>
+          <i class="fa-regular fa-user nav-item"></i>
+        </div>
+        </div>
+        <div class="cards">
+          <h2>Recently Played</h2>
+          <div class="cards-container">
+            <div class="card">
+              <a href="https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF"> <img src="card1img.jpeg" alt="" class="card-img"></a>
+             
+              <p class="card-title">Top 50 -Global</p>
+              <p class="card-info"> Your daily update of the most played tracks..</p>
+            </div>
+          </div>
+          <h2>Spotify original & exclusive shows</h2>
+          <div class="cards-container">
+            <div class="card">
+              <a href="https://open.spotify.com/show/6wUJkXMlCHsqCY1WAtwsm1"> <img src="card11img.jpeg" alt="" class="card-img"></a>
+             
+              <p class="card-title">True Story Bro!with Triggered Insaan</p>
+              <p class="card-info">Spotify</p>
+            </div>
+            <div class="card">
+              <a href="https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF"> <img src="card12img.jpeg" alt="" class="card-img"></a>
+             
+              <p class="card-title">The Horror Show by Khooni Monday</p>
+              <p class="card-info">TMV Studios</p>
+            </div>
+            <div class="card">
+              <a href="https://open.spotify.com/show/1ymvFxRf8M4wChKd1LC9mW"> <img src="card13img.jpeg" alt="" class="card-img"></a>
+             
+              <p class="card-title">Chanakya Niti</p>
+              <p class="card-info">Kiran Chavda</p>
+            </div>
+          </div>
+          <h2><a href="#">Trending now</a> </h2>
+          <div class="cards-container">
+            <div class="card">
+              <a href="https://open.spotify.com/album/4fiPkVR8M247hQBOYLkwBq"><img src="card2img.jpeg" alt="" class="card-img"></a>
+              
+              <p class="card-title">Mahiye Jinna sohna</p>
+              <p class="card-info">Darshan Raval</p>
+            </div>
+            <div class="card">
+              <a href="https://open.spotify.com/track/3pLn5Xq9njIVllxDY9f2Ux"><img src="card3img.jpeg" alt="" class="card-img"></a>
+              
+              <p class="card-title">Mere Pass Tum Ho (1 Min Music) [Lofi Mix]</p>
+              <p class="card-info"> Silent Ocean</p>
+            </div>
+            <div class="card">
+              <a href="https://open.spotify.com/track/1B02UI29t3PTh3m98absaP"> <img src="card4img.jpeg" alt="" class="card-img"></a>
+             
+              <p class="card-title">Naa Ready (From"leo")</p>
+              <p class="card-info"> Anirudh Ravichander</p>
+            </div>
+            <div class="card">
+              <a href="https://open.spotify.com/album/0wjqUAQ7YkdRqTcDjzkepU"><img src="card7img.jpg" alt="" class="card-img"></a>
+              
+              <p class="card-title">Naseeb Se (From"Satyaprem Ki katha")</p>
+              <p class="card-info"> Payal Dev .Vishal Mishra .A.M.Turaz</p>
+            </div>
+            <div class="card">
+              <a href="https://open.spotify.com/album/2AqA5Q47R0kLjUb3tjX63T"><img src="card8img.jpg" alt="" class="card-img"></a>
+              
+              <p class="card-title">Yaar Ka Sataya Hua Hai </p>
+              <p class="card-info"> B Praak,Jaani</p>
+            </div>
+            <div class="card">
+              <a href="https://open.spotify.com/album/5AivaZj0CiQJoDWqVH2pbh"><img src="card9img.jpeg" alt="" class="card-img"></a>
+              
+              <p class="card-title">Still Rolin </p>
+              <p class="card-info"> Shubh</p>
+            </div>
+            <div class="card">
+              <a href="https://open.spotify.com/album/6Zh0nr6poc2VNhZDwNSptG"><img src="card10img.jpeg" alt="" class="card-img"></a>
+              
+              <p class="card-title">Saroor </p>
+              <p class="card-info"> Arjan Dhillon</p>
+            </div>
+
+          </div>
+          <h2>Recommended for you</h2>
+          <div class="cards-container">
+            <div class="card">
+              <a href="https://open.spotify.com/playlist/37i9dQZF1DX5q67ZpWyRrZ"> <img src="card14img.jpeg" alt="" class="card-img"></a>
+             
+              <p class="card-title">Indie Indie</p>
+              <p class="card-info">Best Of the indian Indie</p>
+              <p class="card-info">scene.Cover-Akanksha..</p>
+            </div>
+            <div class="card">
+              <a href="https://open.spotify.com/playlist/37i9dQZF1DX1ct2TQrAvRf"> <img src="card15img.jpeg" alt="" class="card-img"></a>
+             
+              <p class="card-title">RAP 91</p>
+              <p class="card-info">Best of Hip-Hop from india.</p>
+              <p class="card-info">Cover-Divine </p>
+            </div>
+            <div class="card">
+              <a href="https://open.spotify.com/playlist/37i9dQZF1DWTAtTdFMiJYK"> <img src="card16img.jpeg" alt="" class="card-img"></a>
+             
+              <p class="card-title">RADAR India</p>
+              <p class="card-info">Most exciting artists from the Indian Indie </p>
+              <p class="card-info">scene.Cover:Ramil Ganjoo </p>
+            </div>
+            <div class="card">
+              <a href="https://open.spotify.com/playlist/37i9dQZF1DXdMbUSbTOEeW"> <img src="card17img.jpeg" alt="" class="card-img"></a>
+             
+              <p class="card-title">mint India</p>
+              <p class="card-info">Trending dance hits in India. </p>
+              <p class="card-info">Cover:DeepikaPadukone & Shahrukh khan </p>
+            </div>
+          </div>
+          <h2>Featured Charts</h2>
+          <div class="cards-container">
+            <div class="card">
+              <a href="https://open.spotify.com/playlist/37i9dQZEVXbNG2KDcFcKOF"> <img src="card5img.jpeg" alt="" class="card-img"></a>
+             
+              <p class="card-title">Top Songs-Global</p>
+              <p class="card-info"> Your daily update of the most played tracks..</p>
+            </div>
+            <div class="card">
+              <a href="https://open.spotify.com/playlist/37i9dQZEVXbMWDif5SCBJq"><img src="card6img.jpeg" alt="" class="card-img"></a>
+              
+              <p class="card-title">Top Songs-India</p>
+              <p class="card-info"> Your daily update of the most played tracks..</p>
+            </div>
+            <div class="card">
+              <a href="https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF"><img src="card1img.jpeg" alt="" class="card-img"></a>
+              
+              <p class="card-title">Top 50 -Global</p>
+              <p class="card-info"> Your daily update of the most played tracks..</p>
+            </div>
+          
+        </div>
+          <h2>Shows to try</h2>
+          <div class="cards-container">
+            <div class="card">
+              <a href="https://open.spotify.com/show/2X40qLyoj1wQ2qE5FVpA7x"> <img src="card18img.jpeg" alt="" class="card-img"></a>
+             
+              <p class="card-title">Distractible</p>
+              <p class="card-info"> Distractible</p>
+            </div>
+            <div class="card">
+              <a href="https://open.spotify.com/show/6kw2ad8O53PBFs3rCgf17n"><img src="card19img.jpeg" alt="" class="card-img"></a>
+              
+              <p class="card-title">Asli Akhada</p>
+              <p class="card-info"> Wrestle Chatter |Wrestle India</p>
+            </div>
+            <div class="card">
+              <a href="https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk"><img src="card20img.png" alt="" class="card-img"></a>
+              
+              <p class="card-title">The Joe Rogan experie...</p>
+              <p class="card-info"> Joe Rogan</p>
+            </div>
+            <div class="card">
+              <a href="https://open.spotify.com/show/6ZcvVBPQ2ToLXEWVbaw59P"><img src="card21img.jpeg" alt="" class="card-img"></a>
+              
+              <p class="card-title">The Ranveer Show</p>
+              <p class="card-info"> BeerBiceps</p>
+            </div>
+          
+        </div>
+
+        <div class="footer">
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="music-player">
+       
+        <div class="player">
+        <div class="player-controls">
+        <img src="player_icon1.png" alt="" class="player-control-icon">
+        <img src="player_icon2.png" alt="" class="player-control-icon">
+        <img src="player_icon3.png" alt="" class="player-control-icon" style="opacity: 1; height:2rem">
+        <img src="player_icon4.png" alt="" class="player-control-icon">
+        <img src="player_icon5.png" alt="" class="player-control-icon">
+      </div>
+      <div class="playback-bar">
+      <span class="curr-time">00:00</span>
+      <input type="range" min="0" max="100" class="progress-bar" step="1 ">
+      <span class="tot-time">3:33</span>
+       
+
+      </div>
+   
+    </div>
+    <div class="controls">
+      <img src="controls_icon1.png" alt="" class="controls_icons" style="height: 3rem;">
+      <img src="controls_icon2.png" alt="" class="controls_icons">
+      <img src="controls_icon3.png" alt="" class="controls_icons">
+      <img src="controls_icon4.png" alt="" class="controls_icons">
+      <img src="controls_icon5.png" alt="" class="controls_icons" style="height: 3rem;" >
+      <input type="range" min="0" max="100" class="volume-bar" step="1 ">
+
+    </div>
+
+  </div>
+
+
+  </body>
+</html>
